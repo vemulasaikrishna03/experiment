@@ -1,0 +1,25 @@
+# Define the IGGWO parameters can be changed
+- `population_size`: The number of solutions in each generation of the population. It typically ranges from 10 to 1000 or more, depending on the problem size and complexity.
+- `max_iterations`: The maximum number of iterations or generations for the algorithm to run. It is usually a positive integer value.
+- `crossover_rate`: The probability of crossover or recombination occurring between two parent solutions during the reproduction phase. It typically ranges from 0.6 to 0.9, indicating the likelihood of genetic information exchange.
+- `mutation_rate`: The probability of mutation occurring in a solution during the reproduction phase. It represents the chance of introducing random changes to the solution. The mutation rate is commonly set between 0.01 to 0.1, indicating a low probability of mutation.
+
+
+num_virtual_machines
+num_hosts
+
+
+# change of fitness function
+
+1. Resource Utilization Fitness: This fitness function aims to balance the resource utilization across hosts, minimizing resource imbalances and ensuring efficient resource utilization.
+
+2. Throughput Fitness: The objective of this fitness function is to maximize the overall throughput or the number of tasks processed within a given time frame. It focuses on achieving high processing rates and efficient task execution.
+
+3. Response Time Fitness: This fitness function focuses on minimizing the response time or latency of tasks. It aims to ensure quick task completion and timely response to user requests.
+
+4. Energy Efficiency Fitness: This fitness function considers the energy consumption of the system and aims to minimize it. It focuses on achieving load balancing while reducing energy usage, contributing to green computing and cost savings.
+
+5. Cost Optimization Fitness: In this fitness function, the goal is to minimize the overall cost of executing tasks by optimizing the allocation of resources. It considers factors such as resource usage costs, data transfer costs, and other relevant cost parameters.
+
+6. Fault Tolerance Fitness: This fitness function aims to enhance the fault tolerance and reliability of the system. It considers factors such as minimizing single points of failure, distributing tasks across multiple hosts, and ensuring high availability of services.
+
